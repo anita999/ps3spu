@@ -1,0 +1,6 @@
+
+- this is only the fiest step. I am thinking to build a emulator (like the fail0verflow one)
+  with a user interface directly to let user manupulate the registers and instruction flow, 
+  together with the ability of manupulating the memory of SPU. then we can create a virtual SPU in PC 
+  and have codes running inside the emulator and do whatever we want, ha.
+
