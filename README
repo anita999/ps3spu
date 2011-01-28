@@ -1,0 +1,15 @@
+ps3spu process module for IDA
+
+credits: appreciate for Bluemimmosa for his code sharing and discussion.
+
+
+just some quick notes:
+
+- the plugin was developed using IDA 5.5, so if you have that it should
+  compile out of the box.
+- after compiling install the module in IDAs proc subdirectoy and also copy the dummy ps3spu.cfg file to cfg dir under ida
+
+if you get a "Bad Logic" warning, please report!
+
+note: there is no working loader for SPU self/elf files currently. you have to use readelf command to read out the
+      section info of the SPU elf file, then load the none-zero sized program section manually.
