@@ -1257,7 +1257,7 @@ void out(void)
     	;
     	break;
     case ps3spu_wrch :  /*  199 , wrch ca,rt    wrch Write Channel 250  */ 
-    	OutReg(cmd.Op2.value+256);out_symbol(',');OutChar(' ');//OutLine("channel ");OutValue(cmd.Op2,OOFW_8);out_symbol(',');OutChar(' ');//out_long(cmd.Op1.value,16);;out_symbol(',');OutChar(' ');
+    	OutReg(cmd.Op1.value+256);out_symbol(',');OutChar(' ');//OutLine("channel ");OutValue(cmd.Op2,OOFW_8);out_symbol(',');OutChar(' ');//out_long(cmd.Op1.value,16);;out_symbol(',');OutChar(' ');
     	OutReg(cmd.Op2.value);
 		;
     	;
